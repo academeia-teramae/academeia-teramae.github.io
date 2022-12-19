@@ -1,0 +1,38 @@
+body{
+  font-family:Verdana,"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W6",Osaka,"ＭＳ Ｐゴシック",Arial,sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  line-height: 1.8em;
+}
+a#card-logo {
+    display:block;
+    text-decoration: none;
+    color:#000000;
+    }
+    
+a#card-logo:hover {
+    margin: 0px;
+    display:block;
+    text-decoration: none;
+    color:#333333;
+    }
+#card-attention{
+    margin-bottom: 40px;
+}
+#h1-about{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.accordion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .address{
+    font-size: smaller;
+    color: #4E4449;
+}
+footer .copyright{
+    font-size: smaller;
+    color: #4E4449;
+}
