@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./common/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+    <title>メンバー</title>
+</head>
+
+<body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--大きめの画面に対応-->
+    <div class="container-xxl">
+        <!--ロゴ-->
+        <a class="card" style="width: 16rem" id="card-logo" href="./index.html">
+            <div class="card-body">
+                <h5 class="card-subtitle text-muted">所属機関<br>所属グループ<br>所属グループ2</h5>
+                <h1 class="card-title">〇〇研究室</h1>
+            </div>
+        </a>
+
+
+        <!-- ヘッダー（ナビバー）-->
+        <nav class="navbar navbar-expand-xxl navbar-dark bg-dark bg-opacity-75">
+            <!-- グローバルメニュー -->
+            <div class="container-fluid">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./about.html">研究概要</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./publications.html">研究業績</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./member.html">メンバー</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contact.html">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h1 class="text-center">Members of Yoshinobu Laboratory in ISSP(2022FY)</h1>
+        <div class="row">
+            <div class="col-md-2">
+                <!--グリッド空白の調整用　1-->
+            </div>
+            <div class="col-md-8">
+                <hr>
+                *スタッフ *
+                <br>
+                教授 〇〇　〇〇<br>
+                <br>
+                助教 〇〇　〇〇<br>
+                <br>
+                技術専門員 〇〇　〇〇、〇〇　〇〇<br>
+                秘書 〇〇　〇〇、〇〇　〇〇<br>
+                <hr>
+                * ポスドク *<br>
+                <br>
+                特任研究員 〇〇　〇〇<br>
+                <hr>
+                *大学院生* <br>
+                <br>
+                D2 〇〇　〇〇、〇〇　〇〇<br>
+                D1 〇〇　〇〇、〇〇　〇〇、〇〇　〇〇<br>
+                M2 〇〇　〇〇、〇〇　〇〇<br>
+                M1 〇〇　〇〇<br>
+                <br>
+                *卒研生*<br>
+                <br>
+                B4 〇〇　〇〇<br>
+                <hr>
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      過去のメンバー
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        *OB&OG*
+
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        〇〇　〇〇（就職先、進学先）<br>
+                        
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <!--グリッド空白の調整用　2-->
+            </div>
+        </div>
+</body>
+<footer>
+    <hr>
+    <div class="address text-center">
+        連絡先<br>
+
+                〒100-8111 東京都千代田区千代田1-1<br>
+                phone: 03-3213-1111（代表）<br>
+                Fax: 03-3213-1111
+    </div>
+    <hr>
+    <p class="copyright text-center">&copy; 〇〇研究室, 所属機関, All Rights Reserved.
+    </p>
+
+</footer>
+
+</html>
